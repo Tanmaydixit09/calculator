@@ -1,1 +1,1 @@
-- [x] 1. git init
+- [x] 4. git remote add origin https://github.com/Tanmaydixit09/calculator.git&#10;- [ ] 5a. git pull --allow-unrelated-histories origin main&#10;- [ ] 5b. git push -u origin main
