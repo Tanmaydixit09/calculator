@@ -6,7 +6,7 @@
 3. [x] Update style.css ✅ Complete: Added styles for .memory, .function, .sci-row, .history, button animations, mobile media query, light theme support.
 4. [x] Update README.md ✅ Complete: Added full features list and usage.
 5. [x] Test application (`start index.html`) ✅ Complete: Opened in browser.
-6. [ ] Commit changes.
+6. [x] Commit changes ✅ Complete: Committed advanced calculator upgrades.
 
 Progress will be updated after each step.
 - Step 1: Starting implementation...
