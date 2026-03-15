@@ -3,19 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css.new">
+    <title>Advanced Calculator</title>
     
 </head>
 <body>
     <div class="calculator">
     <input type="text" placeholder="0" id="inputBox">
+    
+    <!-- Memory row -->
+    <div>
+        <button class="memory">MC</button>
+        <button class="memory">MR</button>
+        <button class="memory">M+</button>
+        <button class="memory">M-</button>
+    </div>
+
+    <!-- Top row -->
     <div>
         <button class="operator">AC</button>
         <button class="operator">DEL</button>
-        <button class="operator">%</button>
+        <button class="function">%</button>
         <button class="operator">/</button>
-        
     </div>
 
     <div>
@@ -23,7 +32,6 @@
         <button>8</button>
         <button>9</button>
         <button class="operator">*</button>
-        
     </div>
 
     <div>
@@ -31,7 +39,6 @@
         <button>5</button>
         <button>6</button>
         <button class="operator">-</button>
-        
     </div>
 
     <div>
@@ -39,7 +46,6 @@
         <button>2</button>
         <button>3</button>
         <button class="operator">+</button>
-        
     </div>
 
     <div>
@@ -47,11 +53,28 @@
         <button>.</button>
         <button>0</button>
         <button class="equalBtn">=</button>
-        
     </div>
+
+    <!-- Scientific row -->
+    <div class="sci-row">
+        <button class="function">sin</button>
+        <button class="function">cos</button>
+        <button class="function">tan</button>
+        <button class="function">log</button>
+    </div>
+
+    <div class="sci-row">
+        <button class="function">sqrt</button>
+        <button class="function">(</button>
+        <button class="function">)</button>
+        <button>π</button>
+    </div>
+
+    <!-- History -->
+    <div id="history" class="history"></div>
     
 </div>
 
-<script src="script.js"></script>
+<script src="script.js.new"></script>
 </body>
 </html>
